@@ -4,13 +4,13 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(name_array)
-  name_array.map do |name|
+  name_array.collect do |name|
     badge_maker(name)
   end 
 end 
 
 def assign_rooms(speaker_list)
   speaker_list.collect do |speaker|
-    puts "Hello, #{speaker}! You'll be assigned to room #{speaker_list.index(speaker)}"
+    "Hello, #{speaker}! You'll be assigned to room #{speaker_list.index(speaker)}"
   end 
 end 
