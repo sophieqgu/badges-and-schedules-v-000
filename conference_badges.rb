@@ -14,3 +14,6 @@ def assign_rooms(speaker_list)
     "Hello, #{speaker}! You'll be assigned to room #{speaker_list.index(speaker) + 1}!"
   end 
 end 
+
+def printer(name_array, speaker_list)
+  puts
