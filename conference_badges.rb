@@ -15,11 +15,7 @@ def assign_rooms(speaker_list)
   end 
 end 
 
-def printer(name_array, speaker_list)
-  name_array.each do |name|
-    puts name 
-  end 
-  speaker_list.each do |speaker|
-    puts speaker 
-  end 
+def printer(attendees)
+  puts batch_badge_creator(name_array)
+  puts  assign_rooms(speaker_list)
 end 
