@@ -11,6 +11,6 @@ end
 
 def assign_rooms(speaker_list)
   speaker_list.collect do |speaker|
-    "Hello, #{speaker}! You'll be assigned to room #{speaker_list.index(speaker)}"
+    "Hello, #{speaker}! You'll be assigned to room #{speaker_list.index(speaker) + 1}"
   end 
 end 
