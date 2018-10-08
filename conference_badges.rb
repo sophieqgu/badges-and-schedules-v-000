@@ -11,4 +11,6 @@ end
 
 def assign_rooms(speaker_list)
   speaker_list.each_with_index do |speaker, index|
-    puts "Hello, #{speaker}! You'll be assigned to room hash(speaker)"
+    puts "Hello, #{speaker}! You'll be assigned to room #{index})"
+  end 
+end 
